@@ -403,6 +403,9 @@ textarea {
         transform: translate(-50%, -50%);
     width: 60%;
     padding: 50px 100px; }
+    @media (max-width: 480px) {
+      .banner__content {
+        width: 100%; } }
     .banner__content__title {
       color: #848484; }
     .banner__content__subtitle {
@@ -410,6 +413,9 @@ textarea {
       font-size: 1.8em;
       font-weight: 600;
       margin-top: 10px; }
+      @media (max-width: 480px) {
+        .banner__content__subtitle {
+          font-size: 1.1em; } }
 
 .filters {
   margin: 60px auto 0 auto;
@@ -451,6 +457,10 @@ textarea {
   margin-top: 40px;
   padding: 20px;
   padding-bottom: 50px; }
+  @media (max-width: 480px) {
+    .products {
+      margin-left: 0;
+      margin-right: 0; } }
   .products .card {
     max-width: 400px;
     margin: 0 auto;
@@ -477,7 +487,7 @@ textarea {
       margin-top: 10px; }
     .products .card__body__price {
       margin-top: 10px; }
-      .products .card__body__price button {
+      .products .card__body__price .button {
         background-color: #9A4048;
         color: white;
         border: none;
