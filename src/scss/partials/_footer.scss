@@ -1,0 +1,42 @@
+.footer {
+  background-color: #e7dbe5;
+  padding-bottom: 30px;
+  a {
+    color: #5a0b4d;
+  }
+  &__title {
+    color: #5a0b4d;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &__smedia {
+    div {
+      margin: auto;
+      display: table;
+      a {
+        font-size: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    }
+  }
+  &__links {
+    text-align: center;
+    margin-top: 20px;
+    a {
+      text-decoration: underline;
+      margin-right: 30px;
+    }
+  }
+  &__end {
+    margin-top: 30px;
+    text-align: center;
+    .fa-heart {
+      color: red;
+    }
+    p {
+      color: #5a0b4d;
+    }
+  }
+}
